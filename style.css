@@ -1,0 +1,14 @@
+/*
+	Theme Name: Queue Number Framework
+	Theme URI: http://queuenumber.com
+	Description: A Queue Number Wordpress Theme Framework!
+	Version: 1.0
+	Author: Willyn Despoy
+	Author URI: http://queuenumber.com
+ *
+ */
+
+@import url("assets/css/normalise.css");
+@import url("assets/css/master.css");
+@import url("assets/css/ie.css");
+@import url("assets/css/style.css");

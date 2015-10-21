@@ -1,0 +1,144 @@
+.sf-menu,
+.sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sf-menu {
+  /* DEMO SKIN */ }
+  .sf-menu a {
+    padding: 0.44em 0.6em;
+    display: block;
+    position: relative;
+    /* arrows */ }
+    .sf-menu a.sf-with-ul {
+      padding-right: 2.25em;
+      min-width: 1px;
+      /* trigger IE7 hasLayout so spans position accurately */ }
+  .sf-menu ul {
+    position: absolute;
+    top: -999em;
+    background-color: #F5F5F5;
+    width: 14em;
+    text-align: left;
+    border-bottom: 2px solid #26a6ff;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+    .sf-menu ul li:hover, .sf-menu ul li.sfHover, .sf-menu ul li.current-menu-item a, .sf-menu ul li.current-menu-ancestor a, .sf-menu ul a:focus, .sf-menu ul a:hover, .sf-menu ul a:active {
+      background-color: #6BC2FF;
+      outline: 0;
+      text-decoration: none;
+      color: #fff; }
+    .sf-menu ul li:first-child > a {
+      border-top: none; }
+    .sf-menu ul li:last-child > a {
+      border-bottom: none; }
+  .sf-menu ul a {
+    font-size: 13px; }
+  .sf-menu ul a,
+  .sf-menu ul ul a {
+    line-height: 20px; }
+  .sf-menu li {
+    display: inline-block;
+    position: relative; }
+    .sf-menu li:hover {
+      visibility: inherit; }
+    .sf-menu li a {
+      color: #909090; }
+    .sf-menu li:hover ul, .sf-menu li.sfHover ul {
+      left: 0;
+      top: 2.78em;
+      z-index: 99; }
+    .sf-menu li:hover li ul, .sf-menu li.sfHover li ul {
+      top: -999em; }
+    .sf-menu li li:hover ul,
+    .sf-menu li li.sfHover ul {
+      left: 10em;
+      top: 0; }
+    .sf-menu li li:hover li ul,
+    .sf-menu li li.sfHover li ul {
+      top: -999em; }
+    .sf-menu li li li:hover ul,
+    .sf-menu li li li.sfHover ul {
+      left: 10em;
+      top: 0; }
+  .sf-menu ul li {
+    width: 100%; }
+  .sf-menu > li a:visited, .sf-menu > li > a {
+    color: #555; }
+  .sf-menu > li > a {
+    padding: 10px;
+    font-size: 14px; }
+  .sf-menu > li > a,
+  .sf-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400; }
+  .sf-menu > li.sfHover:hover,
+  .sf-menu > li.sfHover > a,
+  .sf-menu > li.sfHover > a:hover,
+  .sf-menu > li > a:hover,
+  .sf-menu > li.current-menu-item > a,
+  .sf-menu > li.current-menu-ancestor > a {
+    color: #0fbc85 !important; }
+
+/* Horizontal nav-bar menu */
+.sf-navbar {
+  background: #BDD2FF;
+  height: 2.5em;
+  padding-bottom: 2.5em;
+  position: relative; }
+  .sf-navbar ul.sf-shadow-off {
+    background: transparent; }
+  .sf-navbar ul li {
+    width: auto;
+    float: left; }
+    .sf-navbar ul li li a:focus, .sf-navbar ul li li a:hover, .sf-navbar ul li li a:active {
+      background: #E6EEFF; }
+    .sf-navbar ul li:hover, .sf-navbar ul li.sfHover, .sf-navbar ul li:hover li, .sf-navbar ul li.sfHover li {
+      background: #D1DFFF; }
+  .sf-navbar ul a:focus,
+  .sf-navbar ul a:hover,
+  .sf-navbar ul a:active {
+    background: #D1DFFF; }
+  .sf-navbar li {
+    background: #AABDE6;
+    position: static; }
+    .sf-navbar li ul {
+      width: 44em; }
+    .sf-navbar li.current {
+      background: #BDD2FF; }
+    .sf-navbar li:hover, .sf-navbar li.sfHover,
+    .sf-navbar li li.current {
+      background: #BDD2FF; }
+    .sf-navbar li li {
+      background: #BDD2FF;
+      position: relative; }
+      .sf-navbar li li ul {
+        width: 13em; }
+      .sf-navbar li li li {
+        width: 100%; }
+      .sf-navbar li li.current > a {
+        font-weight: bold; }
+    .sf-navbar li li li:hover,
+    .sf-navbar li li.sfHover,
+    .sf-navbar li li.current li.current {
+      background: #E6EEFF; }
+  .sf-navbar a {
+    border-top: none;
+    border: none; }
+    .sf-navbar a:focus, .sf-navbar a:hover, .sf-navbar a:active {
+      background: #BDD2FF; }
+    .sf-navbar a:visited, .sf-navbar .sf-menu > li > a {
+      border: none; }
+  .sf-navbar .current ul,
+  .sf-navbar ul li:hover ul,
+  .sf-navbar ul li.sfHover ul {
+    left: 0;
+    top: 2.5em;
+    /* match top ul list item height */ }
+  .sf-navbar .current ul ul {
+    top: -999em; }
+  .sf-navbar > li > ul {
+    background: transparent;
+    padding: 0; }
